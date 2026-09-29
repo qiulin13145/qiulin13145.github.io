@@ -558,6 +558,28 @@ h1 {
   line-height: 1.4;
 }
 .paper-box p { margin-bottom: 10px; color: #7a839a; font-size: 0.82rem; }
+.paper-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 9px 0 12px;
+}
+.paper-tags span {
+  padding: 5px 9px;
+  border: 1px solid rgba(81, 108, 180, 0.12);
+  border-radius: 999px;
+  color: #5b6c92;
+  background: rgba(244, 247, 253, 0.94);
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.2;
+  transition: transform 0.18s ease, background 0.18s ease, color 0.18s ease;
+}
+.paper-tags span:hover {
+  transform: translateY(-1px);
+  color: var(--blue-deep);
+  background: #eef3ff;
+}
 .paper-links { display: flex; gap: 16px; flex-wrap: wrap; }
 .paper-links a {
   color: var(--blue-deep);
